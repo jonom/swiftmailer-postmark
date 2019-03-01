@@ -307,7 +307,7 @@ class Transport implements Swift_Transport {
 	 * @return string
 	 */
 	public function getServerToken() {
-		return $this->token;
+		return $this->serverToken;
 	}
 
 	/**
